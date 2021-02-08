@@ -1,21 +1,21 @@
-"                  ⣠⣮⣷⣆       ⢀                            ⢀⣮⣧
-"                ⢀⠹⠁ ⠋⣧⠫ ⢀⣤⣦⠏⠋⢣⠻⣄   ⢸⣿⣄                   ⢀⣮⣯⣇⣇⢀
-"               ⢀⣏⠃   ⢣⠱⣮⠋⠃     ⠈⢫⣦⠱⣧⠃⢇⣄             ⢠⣄⣀⢀⢠⣯⣏⢏⢋⢏⣇⣀⢀⢀⣄⣀
-"               ⢀⠪⢀ ⢀⣰⢏⠋          ⢋⣧⠫ ⢈⣇              ⣯⣯⣯⣏⢇⢁⣦⣦⢄⢈⢣⣯⣯⣇
-"             ⠪⣷⢯⢏⢧⣷⣷⠻⣆⣀          ⢀⣏⠓ ⢀⣇              ⢪⣏⣇⠃⢀⣮⣇⣁⣀⢀⢨⣧⣇⢇
-"            ⣮⠋      ⠪⢋⢿⣧        ⢀⣮⠃  ⣠⠻        ⢀⣄    ⢈⣯⣇⢂ ⢪⣇⣇⠏⠃⢊⢫⣇    ⢀⣠⢀
-"           ⢀⢇         ⠈⠱⣧      ⢀⣮⠋  ⣠⣯⠫  ⣢⣄⣄⣀⢀⢀⣪⣧⣧⣆⣀  ⢫⣇⣇⣄⢈⣏⢃⣠⣎⠃⢀⢀  ⢀⣦⣮⣇⣆⢀⢀⣠⣠⣄⣆
-"           ⢀⢀          ⢀⣯⢃ ⢀⢀⣠⡑⣧⣦⣦⣦⣦⣇⣀⠀  ⢈⣯⣇⣧⣧⣯⣏⣇⣇⣇⣧⣧⣄⢀⣯⢇⣇⣄⢃⣆⢈⣇⣄⣆⢃⣠⣮⣯⣇⣇⣇⣇⣧⣯⣯⣇⣇⠃
-"          ⢀⢀⢣⣆         ⢀⢫⣧⣧⣯⢏⠏⠋⠁   ⠈⠋⢻⣧   ⢫⣇⠋⠁⢀⢃⢁⢀⢀⢁⢋⢯⣏⠃⢀⣀⢃ ⢃⣆⢈⣯⣯⣯⣏⢏⢋⢁⢀⢀⢁⠃ ⢋⣏⢇
-"  ⢀⣀⣀⣢⣦⣆⣦⢇⠃⢃⢸⣯⣧⣄      ⢀⣦⣯⠋⠁        ⣠⣦⢇⠃ ⢀⢀⣨⣧⣦⢀⢀⣎⠃⢁⠋⢣⣦⢀⢃⣆⠁⣣⣇⢀⢀⠃ ⢈⢫⣇⢁⣢⣮⢋⢁⢉⢣⣦⢀⣦⣧⣀⢀⢀
-" ⣦⣧⣁⣄⣄⣄⣄⣄⣢⣮⣮⢏⠋⠉⢿⣧⢀    ⢪⣯⠁       ⢀⣤⣾⠋⠁   ⠊⢫⣯⣇⣇⢀⢃⣠⣆⣧⣇ ⢃⣆⢀⣆⣦⣇⢀⣆⢂⢀⣠⣦⣧⢃⢀⢃ ⢀⣧⣧⣄⢃⢀⣪⣇⣇⢇⠃
-"  ⠋⠟⠋⠋⠋⠋⠋⠋⠋⠃    ⢫⣧⣄  ⢠⣿⠏     ⢀⣤⣮⣏⠃⠃⢣⣧⣤⣀   ⠈⢫⣯⣧⣆⢀⠁⢀⣄⣤⣎⢇⢀⣯⣇⢇⢀⣇⢀⢢⣯⣇⣇⣆⢀⣧⣦⣄⣀⠁⢁⣄⣮⣏⠏⠁
-"                 ⢫⣧⣆⣄⢏⠁  ⢀⢀⣦⣿⢏⢃⢀⢠⣤⣤⣄⢀⠈⢋⣧⣄   ⠈⠋⢯⣧⣧⣯⣯⣇⠋⢃⢀⢯⣇⣄⢀ ⢀⣮⣯⣇⣇⢇ ⠋⢫⣇⣧⣧⣯⣏⠋
-"                  ⠙⢿⢏⣦⣦⣦⣮⣿⠋⠋⠁⠁⠋⢋⢆⣦⢆⢃⢣⣯⠋⠋       ⠉⢫⣯⣇⣧⣦⣀⢀⣀⢈⢋⢃⠃ ⢋⢋⢃⢀⢀⢀⣦⣮⣇⣏⢏⠃
-"                  ⢀⣦⣦⣦⣏                          ⠈⣫⣇⣇⣧⣧⣯⣧⣧⣧⣆⢀⣮⣧⣧⣧⣧⣧⣇⣇⣇⠁
-"                   ⢋⣇⢁⢃⢆ __  ___ __  _______ ____⢰⢏⢏⠏⠏⠏⠋⠋⠋⢋⣆⣄⢋⠋⠋⠋⠋⠏⢏⢏⢇⢂
-"                     ⢫⣧⣄ \ \/ | |  \/  | () / (__`        ⢠⣯⣇⣆
-"                     ⢀⣮⢋⣧⢀\__/|_|_|\/|_|_|\_\____)        ⢪⣏⣇⢇⠀Author:⠀@LOTehan
+"                 ⣠⣮⣷⣆       ⢀                            ⢀⣮⣧
+"               ⢀⠹⠁ ⠋⣧⠫ ⢀⣤⣦⠏⠋⢣⠻⣄   ⢸⣿⣄                   ⢀⣮⣯⣇⣇⢀
+"              ⢀⣏⠃   ⢣⠱⣮⠋⠃     ⠈⢫⣦⠱⣧⠃⢇⣄             ⢠⣄⣀⢀⢠⣯⣏⢏⢋⢏⣇⣀⢀⢀⣄⣀
+"              ⢀⠪⢀ ⢀⣰⢏⠋          ⢋⣧⠫ ⢈⣇              ⣯⣯⣯⣏⢇⢁⣦⣦⢄⢈⢣⣯⣯⣇
+"            ⠪⣷⢯⢏⢧⣷⣷⠻⣆⣀          ⢀⣏⠓ ⢀⣇              ⢪⣏⣇⠃⢀⣮⣇⣁⣀⢀⢨⣧⣇⢇
+"           ⣮⠋      ⠪⢋⢿⣧        ⢀⣮⠃  ⣠⠻        ⢀⣄    ⢈⣯⣇⢂ ⢪⣇⣇⠏⠃⢊⢫⣇    ⢀⣠⢀
+"          ⢀⢇         ⠈⠱⣧      ⢀⣮⠋  ⣠⣯⠫  ⣢⣄⣄⣀⢀⢀⣪⣧⣧⣆⣀  ⢫⣇⣇⣄⢈⣏⢃⣠⣎⠃⢀⢀  ⢀⣦⣮⣇⣆⢀⢀⣠⣠⣄⣆
+"          ⢀⢀          ⢀⣯⢃ ⢀⢀⣠⡑⣧⣦⣦⣦⣦⣇⣀⠀  ⢈⣯⣇⣧⣧⣯⣏⣇⣇⣇⣧⣧⣄⢀⣯⢇⣇⣄⢃⣆⢈⣇⣄⣆⢃⣠⣮⣯⣇⣇⣇⣇⣧⣯⣯⣇⣇⠃
+"         ⢀⢀⢣⣆         ⢀⢫⣧⣧⣯⢏⠏⠋⠁   ⠈⠋⢻⣧   ⢫⣇⠋⠁⢀⢃⢁⢀⢀⢁⢋⢯⣏⠃⢀⣀⢃ ⢃⣆⢈⣯⣯⣯⣏⢏⢋⢁⢀⢀⢁⠃ ⢋⣏⢇
+" ⢀⣀⣀⣢⣦⣆⣦⢇⠃⢃⢸⣯⣧⣄      ⢀⣦⣯⠋⠁        ⣠⣦⢇⠃ ⢀⢀⣨⣧⣦⢀⢀⣎⠃⢁⠋⢣⣦⢀⢃⣆⠁⣣⣇⢀⢀⠃ ⢈⢫⣇⢁⣢⣮⢋⢁⢉⢣⣦⢀⣦⣧⣀⢀⢀
+"⣦⣧⣁⣄⣄⣄⣄⣄⣢⣮⣮⢏⠋⠉⢿⣧⢀    ⢪⣯⠁       ⢀⣤⣾⠋⠁   ⠊⢫⣯⣇⣇⢀⢃⣠⣆⣧⣇ ⢃⣆⢀⣆⣦⣇⢀⣆⢂⢀⣠⣦⣧⢃⢀⢃ ⢀⣧⣧⣄⢃⢀⣪⣇⣇⢇⠃
+" ⠋⠟⠋⠋⠋⠋⠋⠋⠋⠃    ⢫⣧⣄  ⢠⣿⠏     ⢀⣤⣮⣏⠃⠃⢣⣧⣤⣀   ⠈⢫⣯⣧⣆⢀⠁⢀⣄⣤⣎⢇⢀⣯⣇⢇⢀⣇⢀⢢⣯⣇⣇⣆⢀⣧⣦⣄⣀⠁⢁⣄⣮⣏⠏⠁
+"                ⢫⣧⣆⣄⢏⠁  ⢀⢀⣦⣿⢏⢃⢀⢠⣤⣤⣄⢀⠈⢋⣧⣄   ⠈⠋⢯⣧⣧⣯⣯⣇⠋⢃⢀⢯⣇⣄⢀ ⢀⣮⣯⣇⣇⢇ ⠋⢫⣇⣧⣧⣯⣏⠋
+"                 ⠙⢿⢏⣦⣦⣦⣮⣿⠋⠋⠁⠁⠋⢋⢆⣦⢆⢃⢣⣯⠋⠋       ⠉⢫⣯⣇⣧⣦⣀⢀⣀⢈⢋⢃⠃ ⢋⢋⢃⢀⢀⢀⣦⣮⣇⣏⢏⠃
+"                 ⢀⣦⣦⣦⣏                          ⠈⣫⣇⣇⣧⣧⣯⣧⣧⣧⣆⢀⣮⣧⣧⣧⣧⣧⣇⣇⣇⠁
+"                  ⢋⣇⢁⢃⢆ __  ___ __  _______ ____⢰⢏⢏⠏⠏⠏⠋⠋⠋⢋⣆⣄⢋⠋⠋⠋⠋⠏⢏⢏⢇⢂
+"                    ⢫⣧⣄ \ \/ | |  \/  | () / (__`        ⢠⣯⣇⣆
+"                    ⢀⣮⢋⣧⢀\__/|_|_|\/|_|_|\_\____)        ⢪⣏⣇⢇⠀Author:⠀@LOTehan
 
 "set paste
 set tabstop=2
@@ -46,26 +46,47 @@ filetype plugin on
 syntax on
 
 " Support Chinese characters
+"E: Changed characters on gvim menu
 set fileencodings=utf-8,gbk,utf-16le,cp1252,iso-8859-15,ucs-bom
 set termencoding=utf-8
 set encoding=utf-8
 
+" Automatic installation of missing plugins`````````````````````````````````````
+" @https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
+
+" Unix
 if(has('unix'))
+	" Install vim-plug if not found
 	if empty(glob('~/.vim/autoload/plug.vim'))
 		silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
 			\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	endif
-endif
 
-" %LOCALAPPDATA%
+" Windows
+elseif(has('win32'))
+	if empty(glob('$HOME/vimfiles/autoload/plug.vim'))
+		silent !curl -fLo \%HOMEPATH\%/vimfiles/autoload/plug.vim --create-dirs 
+			\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	endif
+endif
 
 " Run PlugInstall if there are missing plugins
 autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-	\|	PlugInstall --sync | source $MYVIMRC
+	\| PlugInstall --sync | source $MYVIMRC
+	\| endif
+" ``````````````````````````````````````````````````````````````````````````````
+
+" Restore cursor
+" @https://vimhelp.org/usr_05.txt.html#last-position-jump
+au BufReadPost *
+	\	if line("'\"") > 1 && line("'\"") <= line("$") && &ft !~# 'commit'
+	\|	exe "normal! g`\""
 	\|	endif
 
 if(has('unix'))
 	call plug#begin('~/.vim/plugged')
+elseif(has('win32'))
+	call plug#begin('$HOME/vimfiles/plugged')
 endif
 
 	Plug 'vim-airline/vim-airline'
